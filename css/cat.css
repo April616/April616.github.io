@@ -1,0 +1,328 @@
+a {
+    cursor: pointer;
+  }
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  #header {
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background: #ffffff;
+    /* background-color: transparent; */
+  }
+  #header > h1 {
+    float: left;
+    /* padding-left: 73px; */
+    width: 15.6%;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+  }
+  #header > h1 > a {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    margin-top: 33px;
+  }
+  #header > h1 > a > img {
+    width: 100%;
+  }
+  .from {
+    float: right;
+    height: 100px;
+    margin-right: 60px;
+    line-height: 100px;
+  }
+  .from > input {
+    width: 200px;
+    height: 20px;
+    border: 0;
+    /* line-height: 30px; */
+    border-bottom: 1px solid #000000;
+    text-indent: 5px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .from > a:nth-of-type(1) {
+    padding: 0 6px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 25px;
+  }
+  .from > a:nth-of-type(2) {
+    padding: 0 2px;
+    margin-left: 8px;
+  }
+  .from > a:nth-of-type(3) {
+    padding: 0 2px;
+    margin-left: 8px;
+  }
+  .from > a:nth-of-type(4) {
+    position: relative;
+    top: 5px;
+    background-image: url(https://img01.fila.cn/theme_fl/images/icons/common-pc.png);
+    background-size: 100% auto;
+    background-position: center top;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 30px;
+    margin-left: 14px;
+  }
+  .substitution {
+    height: 100px;
+  }
+  .judge{
+    height: 85px;
+    border: 1px solid #e4e4e4;
+    padding-left: 20px;
+  }
+  .judge>strong{
+    display: block;
+    line-height: 28px;
+    margin-top: 16px;
+    color: #cf112b;
+  }
+  .judge>P{
+    color: #999999;
+  }
+  .judge>P>a{
+    color: #999999;
+    border-bottom: 1px solid #999999;
+  }
+  .main{
+      margin: 20px auto;
+  }
+  .me{
+    height: 50px;
+    line-height: 50px;
+  }
+  .me>i{
+    color: #03234c;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .me>i>a{
+    display: inline-block;
+    text-align: center;
+    border-top: 4px solid #03234c;
+  }
+  .me>span{
+    display: inline-block;
+    margin: 0 9px;
+    color: #999999;
+  }
+  .main-cat{
+    position: relative;
+  }
+  .loge{
+    width: 300px;
+    height: 105px;
+    position: absolute;
+    top: 110px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+  .loge>img{
+    display: block;
+    height: 66px;
+    width:  80px;
+    margin: auto;
+  }
+  .loge>p{
+    margin-top: 20px;
+    color: #999999;
+  }
+  .loge>p>a{
+    color: #999999;
+    border-bottom: 1px solid #999999;
+  }
+  .main>p{
+    height: 30px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 9px;
+  }
+  .checkbox{
+    float: left;
+    width: 14px;
+    height: 14px;
+    border: 1px  solid #666666;
+    border-radius: 50%;
+    margin: 7px 7px 0 0 ;
+    line-height: 14px;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    /* background: #03234c; */
+    background: #ffffff
+  }
+  .commodity{
+      height: 131px;
+      border-bottom: 1px solid #c3c3c3;
+      padding: 30px 0 0;
+      box-sizing: border-box;
+  }
+  .commodity>.select{
+    margin-top: 5px;
+    background: #ffffff;
+    margin-right: 21px;
+  }
+  .img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 24px;
+    line-height: 100px;
+  }
+  .img>img{
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+  }
+  .describe{
+      float: left;
+  }
+  .describe>h1{
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #03234c;
+  }
+  .describe>strong{
+    line-height: 20px;
+    color: #777777;
+  }
+  .describe>p{
+    margin-top: 5px;
+    color: #777777;
+    height: 26px;
+    line-height: 26px;
+  }
+  .describe>span{
+    display: block;
+    font-size: 14px;
+    color: #777777;
+  }
+  .describe>p>i{
+      float: left;
+  }
+  .z,.y{
+      margin: 0 3px;
+      width: 26px;
+      height: 23px;
+      line-height: 23px;
+      text-align: center;
+      border: 1px solid #cccccc;
+      font-size: 20px;
+      float: left;
+      cursor: pointer;
+  }
+  .num{
+    display: block;
+    float: left;
+    width: 74px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #cccccc;
+  }
+  .z{
+      margin-left: 18px;
+  }
+  .right{
+      float: right;
+  }
+  .pirve{
+      line-height: 17px;
+      color: #032373;
+      font-size: 16px;
+  }
+  .pirveNew{
+      color: #777777;
+      font-size: 12px;
+      text-align: right;
+      text-decoration: line-through;
+  }
+  .del{
+      line-height: 40px;
+      text-align: right;
+      color: #777777;
+      cursor: pointer;
+  }
+  footer{
+      position: fixed;
+      height: 65px;
+      width: 100%;
+      border-bottom: 1px solid #5d5d5d;
+      bottom: 0;
+      left: 0;
+      background: #02234b;
+  }
+  footer>section{
+      height: 100%;
+      color: #ffffff;
+  }
+  .all{
+      margin-top: 24px;
+      background-color: #ffffff;
+  }
+  .le{
+      line-height: 65px;
+      line-height: 65px;
+      margin: 0 7px;
+  }
+  .dels{
+    margin-left: 11px;
+    line-height: 65px;
+  }
+  footer>section>div{
+      float: right;
+  }
+  footer>section>div>.l{
+      float: left;
+    height: 65px;
+    position: relative;
+  }
+  footer>section>div>.l::after{
+      content: "";
+      position: absolute;
+      width: 1px;
+      height: 38px;
+      background: #999999;
+      top: 14px;
+      right: 0;
+      margin-left: 20px;
+  }
+  footer>section>div>.l>p{
+      margin-top: 7px;
+      line-height: 20px;
+    padding-right: 20px;
+
+  }
+  footer>section>div>.l>strong{
+    line-height: 20px;
+    font-size: 18px;
+    padding-right: 20px;
+}
+footer>section>div>.r{
+    float: right;
+    width: 142px;
+    height: 38px;
+    background: #cf112b;
+    line-height: 38px;
+    text-align: center;
+    margin: 14px 0 0 27px;
+    cursor: pointer;
+}
+
+    

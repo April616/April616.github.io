@@ -1,0 +1,58 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure,figcaption{
+    margin: 0;
+    padding: 0;
+}
+/* 设置全局默认字号和字体 */
+html{
+    font-size: 14px;
+}
+body{
+    font: 14px "微软雅黑",Arial;
+}
+/* 设置鼠标双击文字不被选中 */
+html,
+body {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+/* 取消默认加粗样式 */
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-weight: normal;
+    font-size: 100%;
+}
+/* 取消默认倾斜样式 */
+i,em{
+    font-style: normal;
+}
+/* 取消默认下划线 */
+a{
+    color: #444444;
+    text-decoration: none;
+}
+/* 取消列表项目符号 */
+li{
+    list-style: none;
+}
+/* 取消input选中后的高亮框 */
+input{
+    outline: none;
+}
+/* 帮助解决图片被嵌套后的3~6像素bug */
+img{
+    vertical-align: middle;
+}
+/* 万能清除浮动法 */
+.clearfix{
+    *zoom: 1;
+}
+.clearfix::after{
+    content: " ";
+    height: 0;
+    display: block;
+    overflow: hidden;
+    clear: both;
+    visibility: hidden;
+}
+.l{float: left;}
+.r{float: right;}

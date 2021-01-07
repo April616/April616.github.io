@@ -1,0 +1,132 @@
+#from{
+    width: 854px;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin: auto;
+    top: 140px;
+}
+.left{
+    float: left;
+    width: 428px;
+    height: 100%;
+    border-right: 1px solid #03234c;
+}
+.left>strong{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #03234c;
+    font-size: 20px;
+    display: block;
+    width: 358px;
+}
+.left>strong>span{
+    display: inline-block;
+    width:73.47px;
+    height: 24px;
+    margin: 0 7px;
+    cursor: pointer;
+}
+.left>strong>span>img{
+    width: 73.47px;
+    height: 24px;
+}
+.left>p{
+    height: 44px;
+    line-height: 44px;
+    color: #bbbbbb;
+    font-weight: bold;
+}
+.left>p:nth-of-type(1)>span{
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    width: 179px;
+    border-bottom: 2px solid #bbbbbb;
+    text-align: center;
+    cursor: pointer;
+
+}
+.left>p:nth-of-type(1)>.str{
+    border-bottom-color: #03234c;
+    color: #03234c;
+}
+.left>p:nth-of-type(2),.left>p:nth-of-type(3),.left>p:nth-of-type(4)>input{
+    width: 356px;
+    height: 42px;
+    margin-top: 10px;
+}
+.left>p:nth-of-type(4){
+    position: relative;
+
+}
+.left>p:nth-of-type(4)>strong{
+    position: absolute;
+    width: 71px;
+    height: 44px;
+    right: 100px;
+    top: 11px;
+    cursor: pointer;
+}
+.left>p:nth-of-type(2)>input::placeholder,.left>p:nth-of-type(3)>input::placeholder,.left>p:nth-of-type(4)>input::placeholder{
+    color: #cccccc;
+    text-indent: 14px
+}
+.left>p>input{
+    border: 0;
+    width: 356px;
+    height: 42px;
+    border:1px solid #e0e0e0 ;
+    text-indent: 14px;
+}
+.left>input{
+    width: 358px;
+    height: 50px;
+    background: #03234c;
+    color: #ffffff;
+    border: 0;
+    margin-top: 24px;
+    cursor: pointer;
+
+}
+.left>span{
+    display: block;
+    width: 358px;
+    margin-top: 50px;
+    text-align: center;
+    color: #03234c;
+    cursor: pointer;
+}
+.right{
+    width: 424px;
+    float: right;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+.right>h1{
+    line-height: 22px;
+    height: 22px;
+    font-weight: bold;
+    color: #03234c;
+    text-align: center;
+    font-size: 20px;
+}
+.right>p{
+    margin-top: 15px;
+    line-height: 38px;
+    color: #999999;
+}
+.right>ul>li{
+    line-height: 36px;
+    color: #03234c;
+}
+.right>input{
+    width: 365px;
+    height: 50px;
+    background: #03234c;
+    border: 0;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+}

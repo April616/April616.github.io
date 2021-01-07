@@ -1,0 +1,132 @@
+.list-main {
+  float: left;
+  width: 84.4%;
+  > div {
+    > h3 {
+      height: 40px;
+      line-height: 40px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #000;
+      float: left;
+      > span {
+        margin-left: 5px;
+        font-style: normal;
+        font-size: 15px;
+        color: #999;
+        font-weight: 400;
+        vertical-align: baseline;
+      }
+    }
+    > div {
+      text-align: right;
+      float: right;
+      position: relative;
+      > i {
+        font-size: 12px;
+        padding: 0 20px;
+      }
+      > b {
+        font-weight: bold;
+        padding: 0 5px;
+        font-size: 16px;
+      }
+      > a {
+        margin: 0 20px;
+        height: 40px;
+        width: 140px;
+        position: relative;
+        border: 1px solid gray;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        padding-right: 40px;
+        box-sizing: border-box;
+        cursor: pointer;
+        &::after {
+          height: 9px;
+          width: 9px;
+          border-left: 2px solid #666;
+          border-bottom: 2px solid #666;
+          position: absolute;
+          right: 15px;
+          top: 11px;
+          content: "";
+          transform: rotate(-45deg);
+        }
+      }
+      > ul {
+        width: 168px;
+        height: 120px;
+        position: absolute;
+        top: 0;
+        display: none;
+        padding: 10px 0;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+  > ol {
+    cursor: pointer;
+    margin-top: 40px;
+    > li {
+      float: left;
+      margin: 20px;
+      width: 280px;
+      height: 340px;
+      > div {
+        transition: all 0.6s;
+        padding: 15px;
+        background-color: #fff;
+        &:hover {
+           transform: translate(0px, -3px);
+        }
+        > img {
+          width: 250px;
+          height: 250px;
+          margin-bottom: 5px;
+        }
+        >p {
+          width: 250px;
+          height: 30px;
+          line-height: 30px;
+          font-size: 16px;
+          text-overflow:ellipsis;
+          overflow:hidden;
+          white-space:nowrap;
+        }
+        >h5 {
+          > span {
+            display:none;
+            color: gray;
+            font-size: 12px;
+            text-decoration: line-through;
+            padding-left: 20px;
+          }
+          > p {
+            line-height: 40px;
+            display: none;
+            background: #fff;
+            overflow: hidden; 
+            > img {
+              width: 25px;
+              border: 1px solid rgba(105, 103, 103,0.3);
+              padding: 5px;
+              margin-left:5px;
+            }
+          }
+          > a{
+            display: inline-block;
+            height: 25px;
+            line-height: 25px;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,189 @@
+a {
+  cursor: pointer;
+}
+#header {
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  background: #ffffff;
+  /* background-color: transparent; */
+}
+#header > h1 {
+  float: left;
+  /* padding-left: 73px; */
+  width: 15.6%;
+  height: 100px;
+  background: #fff;
+  text-align: center;
+}
+#header > h1 > a {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  margin-top: 33px;
+}
+#header > h1 > a > img {
+  width: 100%;
+}
+.from {
+  float: right;
+  height: 100px;
+  margin-right: 60px;
+  line-height: 100px;
+}
+.from > input {
+  width: 200px;
+  height: 20px;
+  border: 0;
+  /* line-height: 30px; */
+  border-bottom: 1px solid #000000;
+  text-indent: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.from > a:nth-of-type(1) {
+  padding: 0 6px;
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+.from > a:nth-of-type(2) {
+  padding: 0 2px;
+  margin-left: 8px;
+}
+.from > a:nth-of-type(3) {
+  padding: 0 2px;
+  margin-left: 8px;
+}
+.from > a:nth-of-type(4) {
+  position: relative;
+  top: 5px;
+  background-image: url(https://img01.fila.cn/theme_fl/images/icons/common-pc.png);
+  background-size: 100% auto;
+  background-position: center top;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 30px;
+  margin-left: 14px;
+}
+.substitution {
+  height: 100px;
+}
+.main {
+  min-height: 1000px;
+  background: #ffffff;
+}
+.main > nav {
+  float: left;
+  width: 15.6%;
+  text-align: center;
+  background: #ffffff;
+}
+.main > nav > ul {
+  margin: 0 auto;
+  width: 100px;
+  text-align: left;
+}
+.main > nav > ul > li {
+  line-height: 45px;
+  text-align: left;
+  font-size: 18px;
+}
+.main > nav > ul > li:nth-of-type(5) {
+  height: 44px;
+  line-height: 44px;
+}
+.main > nav > ul > li:last-child > a {
+  display: inline-block;
+  line-height: 44px;
+}
+.main > nav > ul > li > a {
+  height: 100%;
+  color: #000000;
+  font-weight: bold;
+}
+.main > nav > ul > li > ul {
+  display: none;
+}
+.main > nav > ul > li > ul > li {
+  line-height: 28px;
+  font-size: 14px;
+  text-align: left;
+}
+.main > nav > ol {
+  margin: 80px auto 0;
+  width: 100px;
+  text-align: left;;
+}
+.main > nav > ol > li {
+  line-height: 31px;
+}
+.main > nav > ol > li:nth-of-type(1) {
+  text-indent: 10px;
+}
+.tree > a::before {
+  content: "+";
+}
+.tree > .active::before {
+  content: " - ";
+}
+.main > nav > ol > li > ul {
+  text-indent: 20px;
+  display: none;
+}
+.main > nav > ol > li > ul {
+  text-indent: 20px;
+  display: none;
+}
+footer {
+  height: 50px;
+  background: #03234c;
+  margin-top: 53px;
+  line-height: 50px;
+}
+footer > nav {
+  float: left;
+  margin-left: 48px;
+}
+footer > nav > a {
+  float: left;
+  margin: 0 12px;
+  color: #ffffff;
+}
+footer > nav > a:nth-of-type(4) > i {
+  float: right;
+  background: url("https://css.gomein.net.cn/gmpro/1.0.0/public/1.0.0/css/i/ui.png")
+    no-repeat;
+  background-position: -72px -1024px;
+  width: 18px;
+  height: 18px;
+  margin: 15px 5px 0;
+  position: relative;
+}
+footer > nav > a:nth-of-type(4) > i > span > img {
+  width: 134px;
+  height: 134px;
+}
+footer > nav > a:nth-of-type(4) > i > span {
+  position: absolute;
+  border: 1px solid #cccccc;
+  top: -147px;
+  left: -60px;
+  width: 134px;
+  height: 134px;
+  z-index: 9;
+  display: none;
+}
+footer > div {
+  float: right;
+  padding-top: 7px;
+  margin-right: 60px;
+}
+footer > div > p {
+  line-height: 20px;
+  color: #888888;
+}
